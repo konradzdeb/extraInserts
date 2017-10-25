@@ -1,0 +1,10 @@
+Package: extraInserts
+Title: RStudio addin inserting right arrow
+Version: 0.0.0.9000
+Authors@R: person("Konrad", "Zdeb", email = "konrad.zdeb@me.com", role = c("aut", "cre"))
+Description: Inserts arrow
+Depends: R (>= 3.4.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

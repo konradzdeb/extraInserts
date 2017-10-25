@@ -1,0 +1,21 @@
+---
+title: "extraInserts"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Description
+
+Very simple RStudio add in inserting **`->`** assignment operator
+
+## Installation
+
+```{r installation, eval=FALSE, echo=TRUE}
+if (!requireNamespace("devtools", quietly = TRUE))
+  install.packages("devtools")
+devtools::install_github('konradedgar/extraInserts')
+```
+

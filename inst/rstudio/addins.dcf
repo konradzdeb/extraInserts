@@ -1,0 +1,4 @@
+Name: Insert ->
+Description: Inserts `->` at the cursor position.
+Binding: insertRightArrow
+Interactive: false
