@@ -4,6 +4,8 @@ extraInserts
 Description
 -----------
 
+Very simple RStudio add in inserting **`->`** assignment operator.
+
 Installation
 ------------
 
