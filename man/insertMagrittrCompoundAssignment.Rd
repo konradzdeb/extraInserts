@@ -2,7 +2,7 @@
 % Please edit documentation in R/insertMagrittrCompoundAssignment.R
 \name{insertMagrittrCompoundAssignment}
 \alias{insertMagrittrCompoundAssignment}
-\title{Insert \-\>.}
+\title{Inserts \%<>\%}
 \usage{
 insertMagrittrCompoundAssignment()
 }

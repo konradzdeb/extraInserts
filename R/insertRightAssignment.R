@@ -1,4 +1,4 @@
-#' Insert \-\>.
+#' Inserts ->
 #'
 #' Insert \code{\-\>}
 #'

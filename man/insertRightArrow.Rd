@@ -2,7 +2,7 @@
 % Please edit documentation in R/insertRightAssignment.R
 \name{insertRightArrow}
 \alias{insertRightArrow}
-\title{Insert \-\>.}
+\title{Inserts ->}
 \usage{
 insertRightArrow()
 }
