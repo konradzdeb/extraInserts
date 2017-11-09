@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Description
 
-The purpose of this trival package is to offer a set of conveniance functions inserting various pipes and operators so those can be conveniently linked to keyboard shortcuts in RStudio.
+The purpose of this trivial package is to offer a set of convenience functions inserting various pipes and operators so those can be conveniently linked to keyboard shortcuts in RStudio.
 
 ### Available operators
 

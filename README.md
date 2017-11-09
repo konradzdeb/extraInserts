@@ -4,7 +4,7 @@ extraInserts
 Description
 -----------
 
-The purpose of this trival package is to offer a set of conveniance
+The purpose of this trivial package is to offer a set of convenience
 functions inserting various pipes and operators so those can be
 conveniently linked to keyboard shortcuts in RStudio.
 
@@ -29,4 +29,5 @@ Updates
 
 ### 9 November 2017
 
--
+-   Created utility functions ensuring that no double spaces are present
+    if any of the glyphs is inserted after space
