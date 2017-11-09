@@ -4,7 +4,9 @@ extraInserts
 Description
 -----------
 
-The purpose of this trival package is to offer a set of conveniance functions inserting various pipes and operators so those can be conveniently linked to keyboard shortcuts in RStudio.
+The purpose of this trival package is to offer a set of conveniance
+functions inserting various pipes and operators so those can be
+conveniently linked to keyboard shortcuts in RStudio.
 
 ### Available operators
 
@@ -21,3 +23,10 @@ if (!requireNamespace("devtools", quietly = TRUE))
   install.packages("devtools")
 devtools::install_github('konradedgar/extraInserts')
 ```
+
+Updates
+-------
+
+### 9 November 2017
+
+-

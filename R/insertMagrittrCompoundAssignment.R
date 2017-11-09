@@ -4,5 +4,6 @@
 #'
 #' @export
 insertMagrittrCompoundAssignment <- function() {
-    rstudioapi::insertText(" %<>% ")
+    glyph <- paste0("%<>%", " ")
+    rstudioapi::insertText(ifelse(nextToSpace(), glyph, prefixSpace(glyph)))
 }
