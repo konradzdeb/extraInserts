@@ -26,10 +26,3 @@ if (!requireNamespace("devtools", quietly = TRUE))
   install.packages("devtools")
 devtools::install_github('konradedgar/extraInserts')
 ```
-
-## Updates
-
-### 9 November 2017
-
-  - Created utility functions ensuring that no double spaces are present
-    if any of the glyphs is inserted after space
