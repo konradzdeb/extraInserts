@@ -11,12 +11,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 The purpose of this trivial package is to offer a set of convenience functions inserting various pipes and operators so those can be conveniently linked to keyboard shortcuts in RStudio.
 
+This package was developer for fun and to conveniently transport frequently used functions across environments. 
+
 ### Available operators
 
 | Operator      | Notes                                                         |
 | ------------- | ------------------------------------------------------------- |
 | **`->`**      | [Rightwards form of common assignment operator][1]            |
 | **`%<>%`**    | Pipe operators offered in the excellent [magrittr][2] package |
+| **`%T>%`**    | The "tee" operator from the [magrittr][2] package             |
 
 ## Installation
 

@@ -7,5 +7,5 @@
 insertMagrittrCompoundAssignment()
 }
 \description{
-Insert \code{\%\<\>\%}
+Inserts \code{\%\<\>\%}
 }

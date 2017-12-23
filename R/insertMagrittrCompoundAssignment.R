@@ -1,6 +1,6 @@
 #' Inserts \%<>\%
 #'
-#' Insert \code{\%\<\>\%}
+#' Inserts \code{\%\<\>\%}
 #'
 #' @export
 insertMagrittrCompoundAssignment <- function() {

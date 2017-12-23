@@ -7,3 +7,8 @@ Name: Insert %<>%
 Description: Inserts `%<>%` at the cursor position.
 Binding: insertMagrittrCompoundAssignment
 Interactive: false
+
+Name: Insert %T>%
+Description: Inserts `%T>%` at the cursor position.
+Binding: insertMagrittrTeeOperator
+Interactive: false
