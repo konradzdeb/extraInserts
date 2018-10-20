@@ -1,5 +1,7 @@
 context("Utility prefix function")
 
-test_that("multiplication works", {
-  expect_equal(2 * 2, 4)
-})
+test_that(desc = "String is prefixed with space",
+          code = expect_match(
+              object = extraInserts:::prefixSpace("a"),
+              regexp = "\\sa"
+          ))
