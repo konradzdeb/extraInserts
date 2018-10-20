@@ -1,6 +1,9 @@
 extraInserts
 ================
 
+[![Build
+Status](https://travis-ci.org/konradedgar/extraInserts.svg?branch=master)](https://travis-ci.org/konradedgar/extraInserts)
+
 ## Description
 
 The purpose of this trivial package is to offer a set of convenience

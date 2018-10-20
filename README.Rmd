@@ -7,6 +7,8 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+[![Build Status](https://travis-ci.org/konradedgar/extraInserts.svg?branch=master)](https://travis-ci.org/konradedgar/extraInserts)
+
 ## Description
 
 The purpose of this trivial package is to offer a set of convenience functions inserting various pipes and operators so those can be conveniently linked to keyboard shortcuts in RStudio.
