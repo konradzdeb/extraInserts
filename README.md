@@ -10,7 +10,7 @@ The purpose of this trivial package is to offer a set of convenience
 functions inserting various pipes and operators so those can be
 conveniently linked to keyboard shortcuts in RStudio.
 
-This package was developer for fun and to conveniently transport
+This package was developed for fun and to conveniently transport
 frequently used functions across
 environments.
 
