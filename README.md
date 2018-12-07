@@ -19,26 +19,26 @@ This package was developed for fun and to conveniently transport frequently used
 </colgroup>
 <thead>
 <tr class="header">
-<th>Operator</th>
-<th>Notes</th>
+<th align="center">Operator</th>
+<th align="left">Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong><code>-&gt;</code></strong></td>
-<td>Rightwards form of the <a href="https://rdrr.io/r/base/assignOps.html">common assignment operator</a></td>
+<td align="center"><strong><code>-&gt;</code></strong></td>
+<td align="left">Rightwards form of the <a href="https://rdrr.io/r/base/assignOps.html">common assignment operator</a></td>
 </tr>
 <tr class="even">
-<td><strong><code>%&lt;&gt;%</code></strong></td>
-<td>The &quot;compound assignment pipe-operator&quot; offered in the excellent <a href="https://magrittr.tidyverse.org/">magrittr</a> package</td>
+<td align="center"><strong><code>%&lt;&gt;%</code></strong></td>
+<td align="left">The <em>compound assignment pipe-operator</em> offered in the excellent <a href="https://magrittr.tidyverse.org/">magrittr</a> package</td>
 </tr>
 <tr class="odd">
-<td><strong><code>%T&gt;%</code></strong></td>
-<td>The &quot;tee operator&quot; from the <a href="https://magrittr.tidyverse.org/">magrittr</a> package</td>
+<td align="center"><strong><code>%T&gt;%</code></strong></td>
+<td align="left">The <em>tee operator</em> from the <a href="https://magrittr.tidyverse.org/">magrittr</a> package</td>
 </tr>
 <tr class="even">
-<td><strong><code>%$%</code></strong></td>
-<td>The &quot;exposition pipe-operator&quot; from the <a href="https://magrittr.tidyverse.org/">magrittr</a> package</td>
+<td align="center"><strong><code>%$%</code></strong></td>
+<td align="left">The <em>exposition pipe-operator</em> from the <a href="https://magrittr.tidyverse.org/">magrittr</a> package</td>
 </tr>
 </tbody>
 </table>

@@ -17,12 +17,12 @@ This package was developed for fun and to conveniently transport frequently used
 
 ### Available operators
 
-| Operator      | Notes                                                                                  |
-| ------------- | -------------------------------------------------------------------------------------- |
+| Operator      | Description                                                                                  |
+| :-----------: | :------------------------------------------------------------------------------------- |
 | **`->`**      | Rightwards form of the [common assignment operator][1]                                 |
-| **`%<>%`**    | The "compound assignment pipe-operator" offered in the excellent [magrittr][2] package |
-| **`%T>%`**    | The "tee operator" from the [magrittr][2] package                                      |
-| **`%$%`**     | The "exposition pipe-operator" from the [magrittr][2] package                          |
+| **`%<>%`**    | The _compound assignment pipe-operator_ offered in the excellent [magrittr][2] package |
+| **`%T>%`**    | The _tee operator_ from the [magrittr][2] package                                      |
+| **`%$%`**     | The _exposition pipe-operator_ from the [magrittr][2] package                          |
 
 ## Installation
 
