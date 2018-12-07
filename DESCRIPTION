@@ -1,15 +1,20 @@
 Package: extraInserts
-Title: RStudio addin inserting right arrow
+Title: RStudio Addin to Insert Various (Pipe) Operators
 Version: 0.0.0.9000
-Authors@R: person("Konrad", "Zdeb", email = "konrad.zdeb@me.com", role = c("aut", "cre"))
-Description: Inserts arrow
+Authors@R: as.person(c(
+    "Konrad Zdeb <konrad.zdeb@me.com> [aut, cre]", 
+    "Salim Brüggemann <salim-b@pm.me> [aut]"
+  ))
+Description: Offers a set of convenience functions inserting various (pipe) operators so those can be conveniently linked to keyboard shortcuts in RStudio.
+Imports: rstudioapi
 Depends: R (>= 3.2)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 Suggests: 
     knitr,
+    magrittr,
     rmarkdown,
     testthat
 VignetteBuilder: knitr
