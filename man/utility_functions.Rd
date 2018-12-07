@@ -11,4 +11,9 @@ nextToSpace()
 Generic utility functions usually not to be used outside the package
 environment.
 }
+\section{Check space}{
+
+Check if last character is an empty space.
+}
+
 \keyword{internal}
