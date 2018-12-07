@@ -7,5 +7,5 @@
 insertMagrittrTeeOperator()
 }
 \description{
-Inserts \code{\%\T\>\%}
+Inserts \code{\%T\>\%}
 }
