@@ -11,17 +11,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Description
 
-The purpose of this trivial package is to offer a set of convenience functions inserting various pipes and operators so those can be conveniently linked to keyboard shortcuts in RStudio.
+The purpose of this trivial package is to offer a set of convenience functions inserting various (pipe) operators so those can be conveniently linked to keyboard shortcuts in [RStudio](https://www.rstudio.com/products/RStudio/).
 
 This package was developed for fun and to conveniently transport frequently used functions across environments. 
 
 ### Available operators
 
-| Operator      | Notes                                                         |
-| ------------- | ------------------------------------------------------------- |
-| **`->`**      | [Rightwards form of common assignment operator][1]            |
-| **`%<>%`**    | Pipe operators offered in the excellent [magrittr][2] package |
-| **`%T>%`**    | The "tee" operator from the [magrittr][2] package             |
+| Operator      | Description                                                                                  |
+| :-----------: | :------------------------------------------------------------------------------------- |
+| **`->`**      | Rightwards form of the [common assignment operator][1]                                 |
+| **`%<>%`**    | The _compound assignment pipe-operator_ offered in the excellent [magrittr][2] package |
+| **`%T>%`**    | The _tee operator_ from the [magrittr][2] package                                      |
+| **`%$%`**     | The _exposition pipe-operator_ from the [magrittr][2] package                          |
 
 ## Installation
 
@@ -31,5 +32,5 @@ if (!requireNamespace("devtools", quietly = TRUE))
 devtools::install_github('konradedgar/extraInserts')
 ```
 
-[1]: https://stat.ethz.ch/R-manual/R-devel/library/base/html/assignOps.html
-[2]: https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html 
+[1]: https://rdrr.io/r/base/assignOps.html
+[2]: https://magrittr.tidyverse.org/

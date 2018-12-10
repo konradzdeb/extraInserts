@@ -1,6 +1,6 @@
 #' Inserts \%T>\%
 #'
-#' Inserts \code{\%\T\>\%}
+#' Inserts \code{\%T\>\%}
 #'
 #' @export
 insertMagrittrTeeOperator <- function() {
