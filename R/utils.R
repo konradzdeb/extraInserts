@@ -7,8 +7,9 @@
 #' @name utility_functions
 NULL
 
-#' @section Check space
+#' @section Check space:
 #' Check if last character is an empty space.
+#'
 #' @rdname utility_functions
 nextToSpace <- function() {
     # FIXME: not passing right T/F value
