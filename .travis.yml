@@ -1,18 +1,51 @@
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
+# Default configuration for use with tic package
+# tic documentation to get started: https://ropenscilabs.github.io/tic/
 
-language: R
+# Header
+language: r
 sudo: false
-cache: packages
-warnings_are_errors: false
+latex: true
 
-# addons:
-#  apt:
-#    sources:
-#     - sourceline: 'deb https://dl.bintray.com/libgit2/ci-dependencies trusty libgit2deps'
-#       key_url: 'https://bintray.com/user/downloadSubjectPublicKey?username=bintray'
+cache:
+  directories:
+    - $TRAVIS_BUILD_DIR/packrat/src
+    - $TRAVIS_BUILD_DIR/packrat/lib
+  packages: true
 
-r_packages:
-  - covr
 
-after_success:
-  - Rscript -e 'library(covr); codecov()'
+addons:
+  apt:
+    packages:
+      - libgs-dev
+      - librdf0-dev
+      - libv8-dev
+      - libxml2-dev
+      - libgit2-dev
+
+r_github_packages:
+  - jimhester/covr
+  - r-lib/pkgdown
+
+matrix:
+  fast_finish: true
+  include:
+    - r: 3.4
+      warnings_are_errors: false
+    - r: oldrel
+      warnings_are_errors: false
+    - r: release
+      script:
+        - R CMD build .
+        - R CMD check *.tar.gz --as-cran
+      after_success:
+        - Rscript -e 'covr::codecov(type = "all")'
+      warnings_are_errors: true
+    - r: devel
+      warnings_are_errors: false
+    - os: osx
+      r:  release
+      warnings_are_errors: true
+    - os: osx
+      r:  oldrel
+      warnings_are_errors: true
