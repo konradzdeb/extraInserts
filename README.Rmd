@@ -27,9 +27,10 @@ This package was developed for fun and to conveniently transport frequently used
 ## Installation
 
 ```{r installation, eval=FALSE, echo=TRUE}
-if (!requireNamespace("devtools", quietly = TRUE))
-  install.packages("devtools")
-devtools::install_github('konradedgar/extraInserts')
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes")
+}
+remotes::install_github('konradedgar/extraInserts')
 ```
 
 [1]: https://rdrr.io/r/base/assignOps.html

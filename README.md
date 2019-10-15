@@ -26,7 +26,8 @@ frequently used functions across environments.
 ## Installation
 
 ``` r
-if (!requireNamespace("devtools", quietly = TRUE))
-  install.packages("devtools")
-devtools::install_github('konradedgar/extraInserts')
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes")
+}
+remotes::install_github('konradedgar/extraInserts')
 ```
