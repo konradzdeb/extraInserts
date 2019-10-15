@@ -29,5 +29,5 @@ frequently used functions across environments.
 if (!requireNamespace("remotes", quietly = TRUE)) {
   install.packages("remotes")
 }
-remotes::install_github('konradedgar/extraInserts')
+remotes::install_github('konradzdeb/extraInserts')
 ```

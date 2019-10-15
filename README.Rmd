@@ -30,7 +30,7 @@ This package was developed for fun and to conveniently transport frequently used
 if (!requireNamespace("remotes", quietly = TRUE)) {
   install.packages("remotes")
 }
-remotes::install_github('konradedgar/extraInserts')
+remotes::install_github('konradzdeb/extraInserts')
 ```
 
 [1]: https://rdrr.io/r/base/assignOps.html
