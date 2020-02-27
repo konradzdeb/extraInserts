@@ -1,9 +1,9 @@
 Package: extraInserts
 Title: RStudio Addin to Insert Various (Pipe) Operators
 Version: 0.0.0.9000
-Authors@R: as.person(c(
-    "Konrad Zdeb <konrad.zdeb@me.com> [aut, cre]", 
-    "Salim Brüggemann <salim-b@pm.me> [aut]"
+Authors@R: c(
+    person("Konrad", "Zdeb", role = c("aut", "cre"), email = "konrad.zdeb@me.com"),
+    person("Salim", "Brüggemann", role = "aut", email = "salim-b@pm.me", comment = c(ORCID = "0000-0002-5329-5987")),
   ))
 Description: Offers a set of convenience functions inserting various (pipe) operators so those can be conveniently linked to keyboard shortcuts in RStudio.
 Imports: rstudioapi
@@ -13,9 +13,9 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
 Suggests: 
+    covr,
     knitr,
     magrittr,
     rmarkdown,
-    testthat,
-    covr
+    testthat
 VignetteBuilder: knitr
