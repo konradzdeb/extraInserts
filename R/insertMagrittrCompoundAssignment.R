@@ -1,6 +1,6 @@
-#' Inserts \%<>\%
+#' Insert `%<>%`
 #'
-#' Inserts \code{\%\<\>\%}
+#' Inserts [`%<>%`][magrittr::%<>%] at the cursor position.
 #'
 #' @export
 insertMagrittrCompoundAssignment <- function() {

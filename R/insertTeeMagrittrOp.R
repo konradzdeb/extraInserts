@@ -1,6 +1,6 @@
-#' Inserts \%T>\%
+#' Insert `%T>%`
 #'
-#' Inserts \code{\%T\>\%}
+#' Inserts [`%T>%`][magrittr::%T>%] at the cursor position.
 #'
 #' @export
 insertMagrittrTeeOperator <- function() {
