@@ -2,10 +2,10 @@
 % Please edit documentation in R/insertMagrittrCompoundAssignment.R
 \name{insertMagrittrCompoundAssignment}
 \alias{insertMagrittrCompoundAssignment}
-\title{Inserts \%<>\%}
+\title{Insert \verb{\%<>\%}}
 \usage{
 insertMagrittrCompoundAssignment()
 }
 \description{
-Inserts \code{\%\<\>\%}
+Inserts \code{\link[magrittr:compound]{\%<>\%}} at the cursor position.
 }

@@ -2,10 +2,10 @@
 % Please edit documentation in R/insertRightAssignment.R
 \name{insertRightArrow}
 \alias{insertRightArrow}
-\title{Inserts ->}
+\title{Insert \verb{->}}
 \usage{
 insertRightArrow()
 }
 \description{
-Insert \code{\-\>}
+Inserts \code{\link[base:assignOps]{->}} at the cursor position.
 }

@@ -1,6 +1,6 @@
-#' Inserts ->
+#' Insert `->`
 #'
-#' Insert \code{\-\>}
+#' Inserts [`->`][base::assignOps] at the cursor position.
 #'
 #' @export
 insertRightArrow <- function() {

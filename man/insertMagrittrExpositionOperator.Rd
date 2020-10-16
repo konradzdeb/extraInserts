@@ -2,10 +2,10 @@
 % Please edit documentation in R/insertMagrittrExpositionOp.R
 \name{insertMagrittrExpositionOperator}
 \alias{insertMagrittrExpositionOperator}
-\title{Inserts \%$\%}
+\title{Insert \verb{\%$\%}}
 \usage{
 insertMagrittrExpositionOperator()
 }
 \description{
-Inserts \code{\%\$\%}
+Inserts \code{\link[magrittr:exposition]{\%$\%}} at the cursor position.
 }

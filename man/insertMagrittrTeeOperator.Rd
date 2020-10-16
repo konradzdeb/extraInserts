@@ -2,10 +2,10 @@
 % Please edit documentation in R/insertTeeMagrittrOp.R
 \name{insertMagrittrTeeOperator}
 \alias{insertMagrittrTeeOperator}
-\title{Inserts \%T>\%}
+\title{Insert \verb{\%T>\%}}
 \usage{
 insertMagrittrTeeOperator()
 }
 \description{
-Inserts \code{\%T\>\%}
+Inserts \code{\link[magrittr:tee]{\%T>\%}} at the cursor position.
 }
