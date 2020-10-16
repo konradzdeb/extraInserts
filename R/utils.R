@@ -31,5 +31,5 @@ nextToSpace <- function() {
 
 #' @section Surround character with empty space
 prefixSpace <- function(x) {
-    paste(" ", x, sep = "")
+    paste0(" ", x)
 }
