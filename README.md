@@ -4,8 +4,7 @@ extraInserts
 [![Build
 Status](https://travis-ci.org/konradzdeb/extraInserts.svg?branch=master)](https://travis-ci.org/konradzdeb/extraInserts)
 
-Description
------------
+## Description
 
 The purpose of this trivial package is to offer a set of convenience
 functions inserting various (pipe) operators so those can be
@@ -17,16 +16,17 @@ frequently used functions across environments.
 
 ### Available operators
 
-|  Operator  | Description                                                                                                          |
-|:----------:|:---------------------------------------------------------------------------------------------------------------------|
-|  **`->`**  | Rightwards form of the [common assignment operator](https://rdrr.io/r/base/assignOps.html)                           |
-| **`%in%`** | Syntactic-sugar version of [`match`](https://rdrr.io/r/base/match.html)                                              |
-| **`%<>%`** | The *compound assignment pipe-operator* offered in the excellent [magrittr](https://magrittr.tidyverse.org/) package |
-| **`%T>%`** | The *tee operator* from the [magrittr](https://magrittr.tidyverse.org/) package                                      |
-| **`%$%`**  | The *exposition pipe-operator* from the [magrittr](https://magrittr.tidyverse.org/) package                          |
+|  Operator  | Description                                                                                                                              |
+|:----------:|:-----------------------------------------------------------------------------------------------------------------------------------------|
+|  **`->`**  | Rightwards form of the [common assignment operator](https://rdrr.io/r/base/assignOps.html)                                               |
+| **`%in%`** | Syntactic-sugar version of [`match`](https://rdrr.io/r/base/match.html)                                                                  |
+| **`%<>%`** | The *compound assignment pipe operator* offered in the excellent [magrittr](https://magrittr.tidyverse.org/) package                     |
+| **`%T>%`** | The *tee operator* from the [magrittr](https://magrittr.tidyverse.org/) package                                                          |
+| **`%$%`**  | The *exposition pipe operator* from the [magrittr](https://magrittr.tidyverse.org/) package                                              |
+| **`%||%`** | The [*NULL default operator*](https://rlang.r-lib.org/reference/op-null-default.html) from the [rlang](https://rlang.r-lib.org/) package |
+| **`%|%`**  | The [*NA default operator*](https://rlang.r-lib.org/reference/op-na-default.html) from the [rlang](https://rlang.r-lib.org/) package     |
 
-Installation
-------------
+## Installation
 
 ``` r
 if (!requireNamespace("remotes", quietly = TRUE)) {
