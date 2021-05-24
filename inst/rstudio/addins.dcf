@@ -22,3 +22,13 @@ Name: Insert %$%
 Description: Inserts `%$%` at the cursor position.
 Binding: insertMagrittrExpositionOperator
 Interactive: false
+
+Name: Insert %||%
+Description: Inserts `%||%` at the cursor position.
+Binding: insertNULLDefault
+Interactive: false
+
+Name: Insert %|%
+Description: Inserts `%|%` at the cursor position.
+Binding: insertNADefault
+Interactive: false
