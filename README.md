@@ -1,8 +1,10 @@
 extraInserts
 ================
 
-[![Build
-Status](https://travis-ci.org/konradzdeb/extraInserts.svg?branch=master)](https://travis-ci.org/konradzdeb/extraInserts)
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/konradedgar/extraInserts/workflows/R-CMD-check/badge.svg)](https://github.com/konradedgar/extraInserts/actions)
+<!-- badges: end -->
 
 ## Description
 
