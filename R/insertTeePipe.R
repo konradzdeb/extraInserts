@@ -3,7 +3,7 @@
 #' Inserts [`%T>%`][magrittr::%T>%] at the cursor position.
 #'
 #' @export
-insertMagrittrTeeOperator <- function() {
+insertTeePipe <- function() {
     glyph <- paste0("%T>%", " ")
     rstudioapi::insertText(ifelse(nextToSpace(), glyph, prefixSpace(glyph)))
 }

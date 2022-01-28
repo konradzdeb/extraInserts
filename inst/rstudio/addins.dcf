@@ -1,26 +1,31 @@
+Name: Insert ->
+Description: Inserts `->` at the cursor position.
+Binding: insertRightAssignment
+Interactive: false
+
 Name: Insert %in%
 Description: Inserts `%in%` at the cursor position.
 Binding: insertIn
 Interactive: false
 
-Name: Insert ->
-Description: Inserts `->` at the cursor position.
-Binding: insertRightArrow
-Interactive: false
-
 Name: Insert %<>%
 Description: Inserts `%<>%` at the cursor position.
-Binding: insertMagrittrCompoundAssignment
-Interactive: false
-
-Name: Insert %T>%
-Description: Inserts `%T>%` at the cursor position.
-Binding: insertMagrittrTeeOperator
+Binding: insertAssignmentPipe
 Interactive: false
 
 Name: Insert %$%
 Description: Inserts `%$%` at the cursor position.
-Binding: insertMagrittrExpositionOperator
+Binding: insertExpositionPipe
+Interactive: false
+
+Name: Insert %!>%
+Description: Inserts `%!>%` at the cursor position.
+Binding: insertEagerPipe
+Interactive: false
+
+Name: Insert %T>%
+Description: Inserts `%T>%` at the cursor position.
+Binding: insertTeePipe
 Interactive: false
 
 Name: Insert %||%
