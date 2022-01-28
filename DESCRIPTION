@@ -1,6 +1,6 @@
 Package: extraInserts
 Title: RStudio Addin to Insert Various (Pipe) Operators
-Version: 0.0.0.9001
+Version: 0.0.0.9002
 Authors@R: 
     c(person(given = "Konrad",
              family = "Zdeb",
@@ -31,5 +31,5 @@ VignetteBuilder:
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 URL: https://konradzdeb.github.io/extraInserts
