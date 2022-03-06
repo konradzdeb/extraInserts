@@ -2,8 +2,8 @@
 
 export(insertAssignmentPipe)
 export(insertEagerPipe)
+export(insertExpositionPipe)
 export(insertIn)
-export(insertMagrittrExpositionOperator)
 export(insertNADefault)
 export(insertNULLDefault)
 export(insertRightAssignment)
