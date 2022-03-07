@@ -3,7 +3,7 @@
 #' Inserts [`%$%`][magrittr::%$%] at the cursor position.
 #'
 #' @export
-insertMagrittrExpositionOperator <- function() {
+insertExpositionPipe <- function() {
     glyph <- paste0("%$%", " ")
     rstudioapi::insertText(ifelse(nextToSpace(), glyph, prefixSpace(glyph)))
 }
