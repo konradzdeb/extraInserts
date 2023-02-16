@@ -8,6 +8,11 @@ Description: Inserts `%in%` at the cursor position.
 Binding: insertIn
 Interactive: false
 
+Name: Insert %>%
+Description: Inserts `%>%` at the cursor position.
+Binding: insertPipe
+Interactive: false
+
 Name: Insert %<>%
 Description: Inserts `%<>%` at the cursor position.
 Binding: insertAssignmentPipe
