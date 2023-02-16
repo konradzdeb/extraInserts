@@ -24,22 +24,44 @@ This package was developed for fun and to conveniently transport frequently used
 
 ### Available operators
 
-|   Operator   | Description                                                                                                                                           |
-|:------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **`->`**   | Rightwards form of the [common **assignment** operator](https://rdrr.io/r/base/assignOps.html)                                                        |
-|  **`%in%`**  | Syntactic-sugar version of [**`match`**](https://rdrr.io/r/base/match.html)                                                                           |
-|  **`%<>%`**  | [**Assignment pipe** operator](https://magrittr.tidyverse.org/reference/compound.html) from the [magrittr](https://magrittr.tidyverse.org/) package   |
-|  **`%$%`**   | [**Exposition pipe** operator](https://magrittr.tidyverse.org/reference/exposition.html) from the [magrittr](https://magrittr.tidyverse.org/) package |
-|  **`%!>%`**  | [**Eager pipe** operator](https://magrittr.tidyverse.org/reference/pipe-eager.html) from the [magrittr](https://magrittr.tidyverse.org/) package      |
-|  **`%T>%`**  | [**Tee pipe** operator](https://magrittr.tidyverse.org/reference/tee.html) from the [magrittr](https://magrittr.tidyverse.org/) package               |
-| **`%\|\|%`** | [**NULL default** operator](https://rlang.r-lib.org/reference/op-null-default.html) from the [rlang](https://rlang.r-lib.org/) package                |
-|  **`%\|%`**  | [**NA default** operator](https://rlang.r-lib.org/reference/op-na-default.html) from the [rlang](https://rlang.r-lib.org/) package                    |
+For every operator listed below an [RStudio add-in](https://rstudio.github.io/rstudioaddins/) is registered, allowing RStudio users to assign a [custom
+shortcut](https://support.rstudio.com/hc/en-us/articles/206382178-Customizing-Keyboard-Shortcuts-in-the-RStudio-IDE) to it or to invoke it from the [command
+palette](https://www.rstudio.com/blog/rstudio-1-4-a-quick-tour/#command-palette--shortcuts).
+
+```{r, echo=FALSE}
+# define operator overview table data
+operator_overview <-
+    tibble::tribble(
+        ~operator, ~description,
+        "->", "Rightwards form of the [common **assignment** operator](https://rdrr.io/r/base/assignOps.html)",
+        "%in%", "Syntactic-sugar version of [**`match`**](https://rdrr.io/r/base/match.html)",
+        "%>%", "[**Pipe** operator](https://magrittr.tidyverse.org/reference/pipe.html) from the [magrittr](https://magrittr.tidyverse.org/) package",
+        "%<>%", "[**Assignment pipe** operator](https://magrittr.tidyverse.org/reference/compound.html) from the [magrittr](https://magrittr.tidyverse.org/) package",
+        "%$%", "[**Exposition pipe** operator](https://magrittr.tidyverse.org/reference/exposition.html) from the [magrittr](https://magrittr.tidyverse.org/) package",
+        "%!>%", "[**Eager pipe** operator](https://magrittr.tidyverse.org/reference/pipe-eager.html) from the [magrittr](https://magrittr.tidyverse.org/) package",
+        "%T>%", "[**Tee pipe** operator](https://magrittr.tidyverse.org/reference/tee.html) from the [magrittr](https://magrittr.tidyverse.org/) package",
+        "%||%", "[**NULL default** operator](https://rlang.r-lib.org/reference/op-null-default.html) from the [rlang](https://rlang.r-lib.org/) package",
+        "%|%", "[**NA default** operator](https://rlang.r-lib.org/reference/op-na-default.html) from the [rlang](https://rlang.r-lib.org/) package",
+    )
+
+# print overview table
+operator_overview |>
+    dplyr::mutate(operator = paste0("**`", operator, "`**")) |>
+    dplyr::rename_with(.cols = everything(),
+                       .fn = stringr::str_to_title) |>
+    gt::gt() |>
+    gt::fmt_markdown(columns = everything()) |>
+    gt::tab_options(column_labels.font.weight = "bold") |>
+    # avoid separate HTML <style> tag for GFM
+    gt::as_raw_html(inline_css = TRUE)
+```
 
 ## Installation
 
 ```{r installation, eval=FALSE, echo=TRUE}
 if (!requireNamespace("remotes", quietly = TRUE)) {
-  install.packages("remotes")
+    install.packages("remotes")
 }
 remotes::install_github('konradzdeb/extraInserts')
 ```
+
